@@ -1,0 +1,11 @@
+﻿
+@using PartialViewUsage.Models
+@model List<Customer>
+@*@model PartialViewUsage.Models.Customer*@
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*@Html.Partial("_PartialView")*@
+<partial name="~/Views/Shared/_PartialView.cshtml" />
